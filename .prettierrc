@@ -1,0 +1,14 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "printWidth": 80,
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "useTabs": false,
+  "arrowParens": "avoid",
+  "tailwindConfig": "./tailwind.config.ts",
+  "tailwindPreserveWhitespace": false,
+  "tailwindFunctions": ["clsx", "cn"]
+}
