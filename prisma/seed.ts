@@ -139,6 +139,7 @@ async function up() {
 
   await prisma.productVariant.createMany({
     data: [
+      //sushi
       generateProductVariant({ productId: sushi1.id, size: 6 }),
       generateProductVariant({ productId: sushi1.id, size: 8 }),
 

@@ -30,7 +30,7 @@ export const ingredients = [
       'https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png',
   },
   {
-    name: 'Cheddar and Parmesan Cheeses',
+    name: 'Cheddar and Parmesan',
     price: 79 * 0.01,
     imageUrl:
       'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796',
