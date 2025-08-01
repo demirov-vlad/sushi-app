@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import './../public/fonts/fonts.css'
-import './globals.css'
+import '../../public/fonts/fonts.css'
+import '../globals.css'
 import React from 'react'
 import { Header } from '@/components/shared'
 
@@ -17,7 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className='font-nunito'>{children}</body>
+      <body className='font-nunito'>
+        <main className='min-h-screen '>
+          <Header />
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
